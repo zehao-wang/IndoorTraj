@@ -12,7 +12,7 @@ This repository accompanies the paper "Diversity-Driven View Subset Selection fo
 
 
 ## 0 Environment Setup
-Setup environment following 3DGS [link](https://github.com/graphdeco-inria/gaussian-splatting), and install packages listed in the ```requirements.txt```. 
+Setup environment following [3DGS](https://github.com/graphdeco-inria/gaussian-splatting), and install packages listed in the ```requirements.txt```. 
 
 Compile ```histogram_batched``` for uniform coverage value function following [link](https://gitlab.inria.fr/fungraph/progressive-camera-placement).
 ```bash
