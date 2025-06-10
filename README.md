@@ -175,5 +175,14 @@ sh scripts/train_5perc_indoortraj_3dgs.sh
 
 ## 3 Citation
 ```bibtex
-
+@article{
+    wang2025diversitydriven,
+    title={Diversity-Driven View Subset Selection for Indoor Novel View Synthesis},
+    author={Zehao Wang and Han Zhou and Matthew B. Blaschko and Tinne Tuytelaars and Minye Wu},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2025},
+    url={https://openreview.net/forum?id=F42CRfcp3D},
+    note={}
+}
 ```
