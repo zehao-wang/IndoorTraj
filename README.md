@@ -22,16 +22,9 @@ python setup.py install
 
 <details> 
 
-<summary>Note: The standard gaussian-splatting dataloader does not support different extension and evolved several times. Please first checkout to rgb only version ...</summary>
+<summary>Note: The standard gaussian-splatting dataloader does not support different extension and evolved several times. Please modify the following function ...</summary>
 
-```bash
-cd gaussian-splatting
-git checkout b2ada78a779ba0455dfdc2b718bdf1726b05a1b6
-pip install submodules/diff-gaussian-rasterization
-pip install submodules/simple-knn
-```
-
-Then, modify the ```readCamerasFromTransforms``` and ```fetchPly``` in ```scene/dataset_readers.py```
+Modify the ```readCamerasFromTransforms``` and ```fetchPly``` in ```scene/dataset_readers.py```
 ```python
 def readCamerasFromTransforms(path, transformsfile, white_background, extension=".png"):
     cam_infos = []
